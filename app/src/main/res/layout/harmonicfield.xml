@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <include
+        android:id="@+id/player"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        layout="@layout/audio_playback_common" />
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bemvindo"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:textColor="#FFFFFF"
+        android:background="#6599FF"
+        android:id="@+id/txtCampoDescricao" />
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tableLayout0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+            <!-- 2 columns -->
+            <TableRow
+                android:id="@+id/tableRow0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip">
+
+                <Button
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botao"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/btnAumentarTam"
+                    android:visibility="gone"
+                    android:layout_marginTop="20dp" />
+
+                <Button
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botao"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/btnDiminuirTam"
+                    android:visibility="gone"
+                    android:layout_marginTop="20dp" />
+
+                <Button
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/botao"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/btnConcluido"
+                    android:visibility="gone"
+                    android:layout_marginTop="20dp" />
+
+            </TableRow>
+        </TableLayout>
+
+    <RelativeLayout
+        android:id="@+id/relHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <!-- 2 columns -->
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText1"
+                android:text="**"
+                android:enabled="false" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText2"
+                android:text="C#"
+                android:enabled="false" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText3"
+                android:text="**"
+                android:enabled="false" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText4"
+                android:text="**"
+                android:enabled="false" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText5"
+                android:text="C#"
+                android:enabled="false" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText6"
+                android:text="**"
+                android:enabled="false" />
+
+            <EditText
+                   android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText7"
+                    android:text="**"
+                    android:enabled="false" />
+          </TableRow>
+          <View
+             android:layout_height="2dip"
+             android:background="#097054" />
+
+      </TableLayout>
+    </RelativeLayout>
+
+    <com.deezer.sdk.harmonicfield.ui.HarmonicFieldView
+        android:id="@+id/imgCampo"
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"/>
+
+</LinearLayout>
