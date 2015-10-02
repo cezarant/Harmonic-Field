@@ -1,4 +1,4 @@
-<h2>Harmonic Field Train Training</h2>
+<h2>Harmonic Field Training</h2>
 
 Super easy to use, interactive and fun. This application plays a particular song and provides the user a means of trying to guess gifts harmonic chord in your field
 
