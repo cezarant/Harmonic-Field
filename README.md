@@ -1,4 +1,4 @@
-Harmonic Field 
+<h2>Harmonic Field Train Training</h2>
 
 Super easy to use, interactive and fun. This application plays a particular song and provides the user a means of trying to guess gifts harmonic chord in your field
 
@@ -12,8 +12,6 @@ Super easy to use, interactive and fun. This application plays a particular song
     </td>
   </tr>
   </table>
-----------------------------------------------------------------------------------------------------------------------
-<br>
 <h2>To developers :) </h2>
 No have too much secrets. Config the gradle to build Deezer-version-x.xx.xx.aar and LibPlayGround. 
 Any question? cezarantsouza@gmail.com 
