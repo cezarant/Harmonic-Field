@@ -13,6 +13,6 @@ Super easy to use, interactive and fun. This application plays a particular song
   </tr>
   </table>
 <h2>To developers :) </h2>
-No have too much secrets. Config the gradle to build Deezer-version-x.xx.xx.aar and LibPlayGround. 
+No have too much secrets. Config the gradle to build Deezer-version-x.xx.xx.aar and LibPlayGround.aar.  
 Any question? cezarantsouza@gmail.com 
 ----------------------------------------------------------------------------------------------------------------------
